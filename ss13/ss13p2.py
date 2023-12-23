@@ -14,6 +14,7 @@ plt.ylabel('Med.Age')
 plt.title('Med. Age in 2020')
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
+df3 = df.sort_values(by='Med. Age',ascending=False)
+print(df3)
 plt.show()
 
-print(df2)
